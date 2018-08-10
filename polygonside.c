@@ -50,10 +50,11 @@ int main()
   
  } 
        int c1=polygon( arr, size ) ;
+       c1=c1*0.5;
        if(c1==0)
        printf("0");
        else if(c1>0)
-       printf("%d",c1);
+       printf("polygon: %d",c1);
  
     return 0;
 }
